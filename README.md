@@ -100,4 +100,4 @@ As for my proposed solution, depending on the use case, you can either merge `Bo
 ... or use two (2) queries to fetch the required data, for example, use query `getAuthorById` to get author's name and use `getBooksByAuthorName` to get all books from that author.
 ## Learn More
 - [NextJS Documentation](https://nextjs.org/docs) - official in-depth documentation including NextJS features and API.
-- [Apollo Server v4 Migration](https://www.apollographql.com/docs/apollo-server/migration) - Apollo's documentation page to guide migrating from older verions of Apollo Server to version 4.
+- [Apollo Server v4 Migration](https://www.apollographql.com/docs/apollo-server/migration) - Apollo's documentation page to guide migrating from older versions of Apollo Server to version 4.
