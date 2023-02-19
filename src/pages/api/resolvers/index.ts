@@ -1,6 +1,6 @@
 // Queries
-// import {} from "./query/book.query"
-// import {} from "./query/author.query"
+import { getBooks, getBooksByAuthor } from "./query/book.query"
+import { getAuthors, getAuthorByName } from "./query/author.query"
 
 // Mutations
 import { addBook } from "./mutation/book.mutation"
@@ -8,10 +8,19 @@ import { addAuthor } from "./mutation/author.mutation"
 
 export const resolvers = {
   Query: {
-    // Queries here
+    // Book queries
+    getBooks,
+    getBooksByAuthor,
+
+    // Author queries
+    getAuthors,
+    getAuthorByName,
   },
   Mutation: {
+    // Book mutations
     addBook,
+
+    // Author mutations
     addAuthor,
   },
 }
