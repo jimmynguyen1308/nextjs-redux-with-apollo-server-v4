@@ -8,13 +8,13 @@ const filePath = (relativePath: string | null, fileName: string): string => {
     : path.join(process.cwd(), relativePath, fileName)
 }
 
-const fileData = (filePath: string) => {
+const fileData = (filePath: string | null) => {
   return _.isNil(filePath)
     ? null
     : JSON.parse(fs.readFileSync(filePath, "utf-8"))
 }
 
-const saveData = (filePath: string, data: any) => {
+const saveData = (filePath: string | null, data: any) => {
   if (!filePath || !data)
     return {
       status: 400,
