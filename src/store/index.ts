@@ -1,9 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit"
 import { createWrapper } from "next-redux-wrapper"
+import { authorSlice } from "./authorSlice"
+import { bookSlice } from "./bookSlice"
 
 export const store = configureStore({
   reducer: {
-    // add store reducers here
+    [authorSlice.name]: authorSlice.reducer,
+    [bookSlice.name]: bookSlice.reducer,
   },
   devTools: true,
   middleware: (getDefaultMiddleware: Function) =>
