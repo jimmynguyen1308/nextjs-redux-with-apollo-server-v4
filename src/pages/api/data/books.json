@@ -1,0 +1,37 @@
+[
+  {
+    "id": "book001",
+    "name": "Hamlet",
+    "year": 1601,
+    "author": "William Shakespeare",
+    "description": "The Tragedy of Hamlet, Prince of Denmark, or more simply Hamlet, is a tragedy by William Shakespeare, believed to have been written between 1599 and 1601. The play, set in Denmark, recounts how Prince Hamlet exacts revenge on his uncle Claudius, who has murdered Hamlet's father, the King, and then taken the throne and married Gertrude, Hamlet's mother. The play vividly charts the course of real and feigned madness—from overwhelming grief to seething rage—and explores themes of treachery, revenge, incest, and moral corruption."
+  },
+  {
+    "id": "book002",
+    "name": "King Lear",
+    "year": 1606,
+    "author": "William Shakespeare",
+    "description": "King Lear is a tragedy by William Shakespeare, believed to have been written between 1603 and 1606. It is considered one of his greatest works. The play is based on the legend of Leir of Britain, a mythological pre-Roman Celtic king. It has been widely adapted for stage and screen, with the part of Lear played by many of the world's most accomplished actors."
+  },
+  {
+    "id": "book003",
+    "name": "The Odyssey",
+    "year": -800,
+    "author": "Homer",
+    "description": "The Odyssey is one of two major ancient Greek epic poems attributed to Homer. It is, in part, a sequel to the Iliad, the other work traditionally ascribed to Homer. The poem is fundamental to the modern Western canon. Indeed it is the second—the Iliad being the first—extant work of Western literature. It was probably composed near the end of the eighth century BC, somewhere in Ionia, the Greek-speaking coastal region of what is now Turkey. The poem mainly centers on the Greek hero Odysseus (or Ulysses, as he was known in Roman myths) and his long journey home following the fall of Troy. It takes Odysseus ten years to reach Ithaca after the ten-year Trojan War. In his absence, it is assumed he has died, and his wife Penelope and son Telemachus must deal with a group of unruly suitors, the Mnesteres or Proci, competing for Penelope's hand in marriage."
+  },
+  {
+    "id": "book004",
+    "name": "Crime and Punishment",
+    "year": 1866,
+    "author": "Fyodor Dostoyevsky",
+    "description": "It is a murder story, told from a murder;s point of view, that implicates even the most innocent reader in its enormities. It is a cat-and-mouse game between a tormented young killer and a cheerfully implacable detective. It is a preternaturally acute investigation of the forces that impel a man toward sin, suffering, and grace. Ever since its publication in 1866 Crime and Punishment has intrigued readers and sorely tested translators, the best of whom seemed to capture one facet of Dostoevsky's masterpiece while missing the rest."
+  },
+  {
+    "id": "book005",
+    "name": "War and Peace",
+    "year": 1867,
+    "author": "Leo Tolstoy",
+    "description": "Epic in scale, War and Peace delineates in graphic detail events leading up to Napoleon's invasion of Russia, and the impact of the Napoleonic era on Tsarist society, as seen through the eyes of five Russian aristocratic families."
+  }
+]

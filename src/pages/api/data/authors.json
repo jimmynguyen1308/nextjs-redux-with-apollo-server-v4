@@ -1,0 +1,30 @@
+[
+  {
+    "id": "aut001",
+    "name": "William Shakespeare",
+    "gender": 1,
+    "nationality": "British",
+    "description": "William Shakespeare (bapt. 26 April 1564 – 23 April 1616) was an English poet, playwright and actor, widely regarded as the greatest writer in the English language and the world's greatest dramatist. He is often called England's national poet and the 'Bard of Avon'. His extant works, including collaborations, consist of approximately 39 plays, 154 sonnets, two long narrative poems, and a few other verses, some of uncertain authorship. His plays have been translated into every major living language and are performed more often than those of any other playwright.Shakespeare was born and raised in Stratford-upon-Avon, Warwickshire. At the age of 18, he married Anne Hathaway, with whom he had three children: Susanna and twins Hamnet and Judith. Sometime between 1585 and 1592, he began a successful career in London as an actor, writer, and part-owner of a playing company called the Lord Chamberlain's Men, later known as the King's Men. At age 49 (around 1613), he appears to have retired to Stratford, where he died three years later. Few records of Shakespeare's private life survive; this has stimulated considerable speculation about such matters as his physical appearance, his sexuality, his religious beliefs, and whether the works attributed to him were written by others. Such theories are often criticised for failing to adequately note that few records survive of most commoners of the period."
+  },
+  {
+    "id": "aut002",
+    "name": "Homer",
+    "gender": 1,
+    "nationality": "Greek",
+    "description": "Homer is the legendary author of the Iliad and the Odyssey, two epic poems that are the central works of ancient Greek literature. The Iliad is set during the Trojan War, the ten-year siege of the city of Troy by a coalition of Greek kingdoms. It focuses on a quarrel between King Agamemnon and the warrior Achilles lasting a few weeks during the last year of the war. The Odyssey focuses on the journey home of Odysseus, king of Ithaca, around 20 years after the fall of Troy. Many accounts of Homer's life circulated in classical antiquity, the most widespread being that he was a blind bard from Ionia, a region of central coastal Anatolia in present-day Turkey. Modern scholars consider these accounts legendary.The Homeric Question – concerning by whom, when, where and under what circumstances the Iliad and Odyssey were composed – continues to be debated. Broadly speaking, modern scholarly opinion falls into two groups. One holds that most of the Iliad and (according to some) the Odyssey are the works of a single poet of genius. The other considers the Homeric poems to be the result of a process of working and reworking by many contributors, and that 'Homer' is best seen as a label for an entire tradition. It is generally accepted that the poems were composed at some point around the late eighth or early seventh century BC.The poems are in Homeric Greek, also known as Epic Greek, a literary language which shows a mixture of features of the Ionic and Aeolic dialects from different centuries; the predominant influence is Eastern Ionic. Most researchers believe that the poems were originally transmitted orally. From antiquity until the present day, the influence of the Homeric epics on Western civilization has been great, inspiring many of its most famous works of literature, music, art and film. The Homeric epics were the greatest influence on ancient Greek culture and education; to Plato, Homer was simply the one who 'has taught Greece' – ten Hellada pepaideuken."
+  },
+  {
+    "id": "aut003",
+    "name": "Fyodor Dostoyevsky",
+    "gender": 1,
+    "nationality": "Russian",
+    "description": "Fyodor Mikhailovich Dostoevsky (; Russian: Фёдор Михайлович Достоевский, tr. Fyódor Mikháylovich Dostoyévskiy, IPA: [ˈfʲɵdər mʲɪˈxajləvʲɪtɕ dəstɐˈjɛfskʲɪj] (listen); 11 November 1821 – 9 February 1881), sometimes transliterated Dostoyevsky, was a Russian novelist, short story writer, essayist, journalist and philosopher. Dostoevsky's literary works explore human psychology in the troubled political, social, and spiritual atmospheres of 19th-century Russia, and engage with a variety of philosophical and religious themes. His most acclaimed works include Crime and Punishment (1866), The Idiot (1869), Demons (1872) and The Brothers Karamazov (1880). Dostoevsky's oeuvre consists of 11 novels, three novellas, 17 short stories and numerous other works. Many literary critics rate him as one of the greatest psychologists in world literature. His 1864 novella Notes from Underground is considered to be one of the first works of existentialist literature."
+  },
+  {
+    "id": "aut004",
+    "name": "Leo Tolstoy",
+    "gender": 1,
+    "nationality": "Russian",
+    "description": "Count Lev Nikolayevich Tolstoy (; Russian: Лев Николаевич Толстой, tr. Lev Nikoláyevich Tolstóy; [lʲef nʲɪkɐˈlaɪvʲɪtɕ tɐlˈstoj] (listen); 9 September [O.S. 28 August] 1828 – 20 November [O.S. 7 November] 1910), usually referred to in English as Leo Tolstoy, was a Russian writer who is regarded as one of the greatest authors of all time.Born to an aristocratic Russian family in 1828, he is best known for the novels War and Peace (1869) and Anna Karenina (1877), often cited as pinnacles of realist fiction. He first achieved literary acclaim in his twenties with his semi-autobiographical trilogy, Childhood, Boyhood, and Youth (1852–1856), and Sevastopol Sketches (1855), based upon his experiences in the Crimean War. Tolstoy's fiction includes dozens of short stories and several novellas such as The Death of Ivan Ilyich (1886), Family Happiness (1859), and Hadji Murad (1912). He also wrote plays and numerous philosophical essays."
+  }
+]
