@@ -27,7 +27,7 @@ export default function BooksPage(props: BooksPageProps) {
 
 export async function getStaticProps() {
   try {
-    const response = await axios.post("http://localhost:3000/api/graphql", {
+    const response = await axios.post(`${process.env.BASE_URL}/api/graphql`, {
       query: print(queryUtils.GET_BOOKS),
     })
     const data = response.data.data.getBooks

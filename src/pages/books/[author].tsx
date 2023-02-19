@@ -31,7 +31,7 @@ export default function BooksPageByAuthor(props: BooksPageByAuthorProps) {
 
 export async function getStaticPaths() {
   try {
-    const response = await axios.post("http://localhost:3000/api/graphql", {
+    const response = await axios.post(`${process.env.BASE_URL}/api/graphql`, {
       query: print(queryUtils.GET_AUTHORS),
     })
     const data = response.data.data.getAuthors
