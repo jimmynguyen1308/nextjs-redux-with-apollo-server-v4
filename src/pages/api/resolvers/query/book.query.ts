@@ -1,5 +1,6 @@
 import _ from "lodash"
 import { relativeDataPath, JsonDataFileName } from "@/constants/data.const"
+import { BookTypes } from "@/types/book.types"
 import { fileUtils } from "@/utils/file.utils"
 
 const filePath = fileUtils.filePath(relativeDataPath, JsonDataFileName.BOOK)
@@ -8,6 +9,5 @@ const books = fileUtils.fileData(filePath)
 
 export const getBooks = () => books
 
-// it's recommended to import types for args, but i'm lazy
-export const getBooksByAuthor = (__: any, args: any) =>
+export const getBooksByAuthor = (__: any, args: BookTypes) =>
   _.filter(books, (book) => book.author === args.author)

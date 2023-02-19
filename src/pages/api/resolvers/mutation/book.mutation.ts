@@ -1,9 +1,9 @@
 import _ from "lodash"
 import { relativeDataPath, JsonDataFileName } from "@/constants/data.const"
+import { BookTypes } from "@/types/book.types"
 import { fileUtils } from "@/utils/file.utils"
 
-// it's recommended to import types for args, but i'm lazy
-export const addBook = (__: any, args: any) => {
+export const addBook = (__: any, args: BookTypes) => {
   const filePath = fileUtils.filePath(relativeDataPath, JsonDataFileName.BOOK)
   const fileData = fileUtils.fileData(filePath)
   fileData.push({

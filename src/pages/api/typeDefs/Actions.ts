@@ -6,7 +6,7 @@ export const Query = `#graphql
 
     # Authors
     getAuthors: [Author]
-    getAuthorByName(name: String!): Author
+    getAuthorByName(name: String!): [Author]
   }
 `
 export const Mutation = `#graphql
