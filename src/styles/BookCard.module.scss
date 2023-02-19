@@ -1,8 +1,8 @@
-:root {
-  background-color: #303030;
-  color: #fff;
-  a {
+.book_card {
+  span {
+    text-decoration: underline;
     color: #c20303;
+    cursor: pointer;
     &:hover {
       text-decoration: none;
     }
