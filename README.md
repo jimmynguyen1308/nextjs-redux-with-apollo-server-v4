@@ -44,13 +44,13 @@ It is suggested that the purpose of Apollo's new direction is to change the way 
 │   └── graphql.ts          # root file - start Apollo Server and create NextJS handler
 └── ...
 ```
-Having introduced to a new method of writing GraphQL inside TypeScript...
+Having introduced to a new method of writing GraphQL embeded inside TypeScript...
 ```
 const typeDefs = `#graphql
   # GraphQL types in here
 `
 ```
-... it is very clear that the new version of `Apollo Server` has the TypeScript level of dynamic when it comes to database structuring and scope upscaling. The repository is **MY** approach of how they should be dynamically structured.
+... it is very clear that the new direction of `Apollo GraphQL` has the TypeScript level of dynamic when it comes to database structuring and scope upscaling. The repository is **MY** approach of how they should be dynamically structured.
 
 ### 3. Redux
 
