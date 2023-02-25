@@ -12,7 +12,7 @@ export default function BookCard(props: BookCardProps) {
 
   return (
     <div className={styles.book_card}>
-      <h2>{book.name}</h2>
+      <h3>{book.name}</h3>
       <p>
         Published year:{" "}
         {book.year && book.year >= 0
