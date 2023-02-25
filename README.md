@@ -10,7 +10,7 @@ By [`@jimmynguyen1308`](https://github.com/jimmynguyen1308)
 
 With [Apollo Server v2 & v3 coming to an end-of-life](https://www.apollographql.com/blog/announcement/backend/announcing-the-end-of-life-schedule-for-apollo-server-2-3/) and the lack of online resources covering how to setup Apollo Server v4 alongside with Redux in NextJS, this project is going to do just that.
 
-The repository is a simple application bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) issuing "the basics" of how to setup Redux state management and GraphQL Server within a NextJS application (current version is NextJS 13).
+The repository is a simple application bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) issuing "the basics" of how to setup Redux state management and GraphQL Server within a NextJS application.
 
 Hopefully this can help you upscale to an up-to-date version of this tech stack without too many Google searches and  StackOverflow threads.
 
@@ -18,7 +18,7 @@ Hopefully this can help you upscale to an up-to-date version of this tech stack 
 
 The source code is the combination of `NextJS TypeScript framework`, `Redux`, the new `Apollo Server v4` and some little bit of *SASS* (because I can).
 
-### 1. NextJS + TypeScript (v13)
+### 1. NextJS + TypeScript
 ```bash
 npx create-next-app@latest --ts
 # or
