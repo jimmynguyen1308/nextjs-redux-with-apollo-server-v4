@@ -1,15 +1,14 @@
-import _ from "lodash"
 import path from "path"
 import * as fs from "fs"
 
 const filePath = (relativePath: string | null, fileName: string): string => {
-  return _.isNil(relativePath)
+  return relativePath === null || relativePath === undefined
     ? path.join(process.cwd(), fileName)
     : path.join(process.cwd(), relativePath, fileName)
 }
 
 const fileData = (filePath: string | null) => {
-  return _.isNil(filePath)
+  return filePath === null || filePath === undefined
     ? null
     : JSON.parse(fs.readFileSync(filePath, "utf-8"))
 }

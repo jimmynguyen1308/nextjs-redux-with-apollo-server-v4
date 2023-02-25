@@ -5,3 +5,7 @@ export type AuthorTypes = {
   nationality: string | null
   description: string | null
 }
+
+export type AuthorsByIdTypes = {
+  [key: string]: AuthorTypes
+}

@@ -5,3 +5,7 @@ export type BookTypes = {
   author: string
   description: string | null
 }
+
+export type BooksByIdTypes = {
+  [key: string]: BookTypes
+}

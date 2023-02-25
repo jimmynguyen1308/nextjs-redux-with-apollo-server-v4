@@ -22,8 +22,8 @@ export default function BooksPageByAuthor(props: BooksPageByAuthorProps) {
       <h1>Author: {author}</h1>
       <Menu />
       {books &&
-        books.map((book: BookTypes) => {
-          return <BookCard book={book} />
+        books.map((book: BookTypes, index: number) => {
+          return <BookCard key={index} book={book} />
         })}
     </main>
   )

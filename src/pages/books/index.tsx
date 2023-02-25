@@ -1,7 +1,11 @@
+import { useEffect } from "react"
+import { useSelector } from "react-redux"
 import axios from "axios"
 import { print } from "graphql"
 import Menu from "@/components/Menu"
 import BookCard from "@/components/BookCard"
+import { getBooks, getBooksById, isNoBookData } from "@/store/bookSlice"
+import useBookController from "@/hooks/useBookController"
 import { BookTypes } from "@/types/book.types"
 import { queryUtils } from "@/utils/query.utils"
 import styles from "@/styles/Home.module.scss"
@@ -12,15 +16,31 @@ interface BooksPageProps {
 
 export default function BooksPage(props: BooksPageProps) {
   const { books } = props
+  const { fetchBooks } = useBookController()
+  const allBooks = useSelector(getBooks)
+  const booksById = useSelector(getBooksById)
+  const isEmpty = useSelector(isNoBookData)
+
+  useEffect(() => {
+    fetchBooks(books)
+  }, [])
 
   return (
     <main className={styles.main}>
       <h1>Books</h1>
       <Menu />
-      {books &&
-        books.map((book: BookTypes) => {
-          return <BookCard book={book} />
+      <h2>Method 1: Print using "allBooks"</h2>
+      {!isEmpty &&
+        allBooks.map((book: BookTypes, index: number) => {
+          return <BookCard key={index} book={book} />
         })}
+
+      <br />
+      <h2>Method 2: Print using "booksById"</h2>
+      {!isEmpty &&
+        Object.keys(booksById).map((props: string, index: number) => (
+          <BookCard key={index} book={booksById[props]} />
+        ))}
     </main>
   )
 }

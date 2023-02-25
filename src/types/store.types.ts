@@ -1,17 +1,17 @@
 import { store } from "@/store"
-import { BookTypes } from "./book.types"
-import { AuthorTypes } from "./author.types"
+import { BookTypes, BooksByIdTypes } from "./book.types"
+import { AuthorTypes, AuthorsByIdTypes } from "./author.types"
 
 export type RootState = ReturnType<typeof store.getState>
 
 export type BookState = {
   books: Array<BookTypes>
+  booksById: BooksByIdTypes
   isNoData: boolean
-  isLoading: boolean
 }
 
 export type AuthorState = {
   authors: Array<AuthorTypes>
+  authorsById: AuthorsByIdTypes
   isNoData: boolean
-  isLoading: boolean
 }
