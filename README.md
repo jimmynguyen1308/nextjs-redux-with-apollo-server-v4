@@ -54,9 +54,9 @@ const typeDefs = `#graphql
 
 ### 3. Redux
 
-It is such a burden to implement `Redux` within a so-called *"simple application"*; hence, Redux has not been fully integrated to the source code (only the setup part is made at the moment).
+It is such a burden to implement `Redux` within a so-called *"simple application"*, not to mention NextJs architecture isn't technically suitable for Redux to be integrated or optimized; however, to avoid _Context hell_, I would still use Redux.
 
-Despite all that, since I need Redux to work in NextJS for future projects, squeezing it in here is one of few opportunities for me to get more efficient with Redux.
+Moreover, since I need Redux to work in NextJS for future projects, squeezing it in here is one of few opportunities for me to get more efficient with Redux.
 
 ## Setup & Implementation
 After cloning the repository, direct to the clone folder and install required dependencies:
